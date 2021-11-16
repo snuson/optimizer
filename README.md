@@ -1,7 +1,7 @@
 # Portfolio Optimizer 
 ## Design Principles
 
-I focused on four main aspects when designing the structure for this proof of concept:
+This project focuses on four main aspects when designing the structure for this proof of concept:
 
 - Ease of use
 - Modularity
@@ -22,7 +22,7 @@ Chapman & Hall wrote in the [Advanced R](https://adv-r.hadley.nz/oo.html) book:
 
 > Generally in R, functional programming is much more important than object-oriented programming, because you typically solve complex problems by decomposing them into simple functions, not simple objects.--
 
-I think a software library like this focuses on complex tasks rather than complex structure and thus benefits from a more functional approach.
+A software library like this focuses on complex tasks rather than complex structure and thus benefits from a more functional approach.
 
 ## Structure
 
@@ -32,7 +32,7 @@ The main function is broken down into three tasks:
 - Optimizing the portfolio
 - Reporting the results
 
-All of these tasks are done in seperate functions. Prepping and reporting defined in one file and the optimizing in another. The method is given as a keyword argument. The target parameter(and future parameters) is also given as a keyword. 
+All of these tasks are done in separate functions. Prepping and reporting defined in one file _util.R_ and the optimizing in another _opt_methods.R_. The method is given as a keyword argument. The target parameter(and future parameters) is also given as a keyword. 
 
 This allows for a couple of things:
 
@@ -51,6 +51,14 @@ the securities and weights:
 3 GOOGL 0.36713974
 ```
 This is how the results are presented at this early stage.The input data is simply the names of the securities and the results are generated using a uniform distribution at random. 
+
+## Setup
+
+There is an `install_github` function to install R packages hosted on GitHub in the devtools package. It requests developer’s name.
+
+```
+install_github("snuson/optimizer")
+```
 
 ## License
 
