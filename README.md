@@ -44,10 +44,11 @@ This allows for a couple of things:
 ## Early Stage Results
 ![A plot to show the results](Rplot.png)
 ```
-name      value
-1  AAPL 0.33847357
-2  TSLA 0.61586355
-3 GOOGL 0.04566287
+the securities and weights:
+   name      value
+1  AAPL 0.05010011
+2  TSLA 0.58276016
+3 GOOGL 0.36713974
 ```
 This is how the results are presented at this early stage.The input data is simply the names of the securities and the results are generated using a uniform distribution at random. 
 

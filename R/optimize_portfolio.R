@@ -12,7 +12,7 @@ library(ggplot2)
 #' @param target The wanted return in percentages. This is an example param
 #' that is to be passed to the optimizer for customization.
 #' @return The results are produced randomly from a uniform distribution.
-#' Returns a pie chart that visualizes the weights.
+#' Returns a plot that visualizes the weights.
 #' Also prints a report on the results.
 #' @examples
 #' optimize_portfolio(c("AAPL", "TSLA", "GOOGL"))

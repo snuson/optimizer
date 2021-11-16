@@ -21,6 +21,7 @@ handle_data <- function(input_data){
 present <- function(opt_data) {
 
   # Print the weights
+  cat("the securities and weights:\n")
   print(opt_data)
 
   # A plot to visualize the weights
