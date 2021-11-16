@@ -60,6 +60,12 @@ There is an `install_github` function to install R packages hosted on GitHub in 
 install_github("snuson/optimizer")
 ```
 
+### Example usage
+
+```
+optimize_portfolio(c("AAPL", "TSLA", "GOOGL"))
+```
+
 ## License
 
 MIT
