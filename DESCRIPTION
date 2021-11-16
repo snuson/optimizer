@@ -3,7 +3,7 @@ Type: Package
 Title: Portfolio Optimizer
 Version: 0.1.0
 Author: Juho Heimonen
-Maintainer: The package maintainer <Juho Heimonen>
+Maintainer: The package maintainer <heimonen.juho@gmail.com>
 Description: The Package is a skeleton for portfolio optimization that is to be filled out later. This only contains the basic structure of the project.
     The optimizer is designed to be easily readable, modular and scalable.
 License: What license is it under?
